@@ -1,0 +1,30 @@
+[tools]
+air = "latest"
+fd = "latest"
+ffmpeg = "latest"
+fzf = "latest"
+gh = "latest"
+glow = "latest"
+go = "latest"
+gofumpt = "latest"
+gotestsum = "latest"
+gum = "latest"
+helix = "latest"
+imagemagick = "latest"
+jq = "latest"
+ripgrep = "latest"
+rtk = "latest"
+tmux = "latest"
+vhs = "latest"
+yazi = "latest"
+zellij = "latest"
+
+[env]
+DO_NOT_TRACK = "1"
+EDITOR = "hx"
+LESSCHARSET = "UTF-8"
+
+_.path = [
+  "~/.opencode/bin",
+  "~/go/bin",
+]
