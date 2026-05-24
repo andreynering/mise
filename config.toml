@@ -29,6 +29,12 @@ vhs = "latest"
 yazi = "latest"
 zellij = "latest"
 
+[shell_alias]
+p = "git pull && git cleanup && task -ls | grep -q install && task install"
+t = "task"
+y = "yazi"
+z = "zellij"
+
 [env]
 DO_NOT_TRACK = "1"
 EDITOR = "hx"
