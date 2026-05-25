@@ -45,4 +45,7 @@ LESSCHARSET = "UTF-8"
 _.path = [
   "~/.opencode/bin",
   "~/go/bin",
+
+  # macOS
+  "/Applications/Postgres.app/Contents/Versions/17/bin"
 ]
