@@ -47,5 +47,6 @@ _.path = [
   "~/go/bin",
 
   # macOS
-  "/Applications/Postgres.app/Contents/Versions/17/bin"
+  "/Applications/Postgres.app/Contents/Versions/17/bin",
+  "/opt/homebrew/share/google-cloud-sdk/bin",
 ]
