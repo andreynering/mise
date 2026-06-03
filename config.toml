@@ -40,6 +40,7 @@ z = "zellij"
 [env]
 DO_NOT_TRACK = "1"
 EDITOR = "hx"
+GOBIN="/Users/andrey/go/bin"
 LESSCHARSET = "UTF-8"
 
 _.path = [
