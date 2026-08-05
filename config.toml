@@ -1,3 +1,6 @@
+[settings]
+env_shell_expand = true
+
 [tools]
 air = "latest"
 aws-cli = { version = "latest", symlink_bins = "true" }
@@ -44,6 +47,7 @@ DO_NOT_TRACK = "1"
 EDITOR = "hx"
 GOBIN="/Users/andrey/go/bin"
 LESSCHARSET = "UTF-8"
+XDG_CONFIG_HOME="$HOME/.config"
 
 _.path = [
   "~/.opencode/bin",
