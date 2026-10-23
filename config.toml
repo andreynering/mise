@@ -43,12 +43,13 @@ y = "yazi"
 z = "zellij"
 
 [env]
-CRUSH_CLIENT_SERVER = "1"
 DO_NOT_TRACK = "1"
 EDITOR = "hx"
 GOBIN="/Users/andrey/go/bin"
 LESSCHARSET = "UTF-8"
 XDG_CONFIG_HOME="$HOME/.config"
+
+_.file = "~/.config/mise/secrets.env"
 
 _.path = [
   "~/.opencode/bin",
