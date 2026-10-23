@@ -5345,6 +5345,10 @@ backend = "go:github.com/charmbracelet/freeze"
 version = "0.3.1"
 backend = "go:github.com/charmbracelet/sequin"
 
+[[tools."go:golang.org/x/tools/gopls/internal/analysis/modernize/cmd/modernize"]]
+version = "0.23.0"
+backend = "go:golang.org/x/tools/gopls/internal/analysis/modernize/cmd/modernize"
+
 [[tools.gofumpt]]
 version = "0.12.0"
 backend = "aqua:mvdan/gofumpt"
