@@ -36,6 +36,7 @@ tmux = "latest"
 vhs = "latest"
 yazi = "latest"
 zellij = "latest"
+"go:golang.org/x/tools/cmd/goimports" = "0.44.0"
 
 [shell_alias]
 p = "git pull && git cleanup && task -ls | grep -q install && task install"
